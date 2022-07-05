@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ritcheyer/nextjs-tutorial/issues"
   },
-  "homepage": "https://github.com/ritcheyer/nextjs-tutorial#readme"
+  "homepage": "https://github.com/ritcheyer/nextjs-tutorial#readme",
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
