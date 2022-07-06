@@ -1,25 +1,13 @@
 {
-  "name": "nextjs-tutorial",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ritcheyer/nextjs-tutorial.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ritcheyer/nextjs-tutorial/issues"
-  },
-  "homepage": "https://github.com/ritcheyer/nextjs-tutorial#readme",
   "dependencies": {
-    "next": "^12.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }
